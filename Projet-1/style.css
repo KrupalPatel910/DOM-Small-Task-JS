@@ -1,0 +1,60 @@
+h1, h3{
+
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+#box{
+    width: 300px;
+    height: 525px;
+    top: 50%;
+    left: 50%;
+    border: 2px solid rgb(255, 3, 3);
+    transform: translate(-50%, -50%);
+    /* display: flex ; */
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    
+}
+
+#img{
+ width: 250px;
+ height: 300px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50%);
+ /* border: 2px solid blue; */ 
+ border-radius: 20%;
+
+ position: absolute;
+ display: flex;
+ background: url(/Projet-1/IMG_3947.jpeg)  no-repeat;
+ object-fit: cover;
+ background-size: cover;
+
+
+}
+
+button{
+    /* position: relative; */
+
+    padding: 10px 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 333px 110px;
+    background-color: blue;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
